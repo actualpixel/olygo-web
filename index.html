@@ -7,8 +7,8 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-  <title>Olygo — Dating App for Real, Verified Connections</title>
-  <meta name="description" content="Olygo is the dating app for genuine, verified connections. No endless scrolling, no ghosting — mindful daily swipes, smart preference matching and safe chat. Download on iOS and Android.">
+  <title>Olygo — Launching Soon | The Dating App for Real, Verified Connections</title>
+  <meta name="description" content="Olygo launches 19 December 2026. A dating app for genuine, verified connections — no endless scrolling, no ghosting. Join the waitlist for early access.">
   <meta name="keywords" content="Olygo, dating app, verified dating, online dating India, meet new people, real connections, safe dating app">
   <meta name="author" content="Olygo">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -19,8 +19,8 @@
   <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Olygo">
-  <meta property="og:title" content="Olygo — Connect with real people">
-  <meta property="og:description" content="No endless scrolling. No ghosting. Just genuine, verified connections.">
+  <meta property="og:title" content="Olygo is coming — join the waitlist">
+  <meta property="og:description" content="Launching 19 December 2026. Genuine, verified connections. Get early access.">
   <meta property="og:url" content="https://olygo.app/">
   <meta property="og:image" content="https://olygo.app/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -28,8 +28,8 @@
   <meta property="og:image:alt" content="Olygo dating app — Connect with real people">
   <meta property="og:locale" content="en_IN">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Olygo — Connect with real people">
-  <meta name="twitter:description" content="No endless scrolling. No ghosting. Just genuine, verified connections.">
+  <meta name="twitter:title" content="Olygo is coming — join the waitlist">
+  <meta name="twitter:description" content="Launching 19 December 2026. Genuine, verified connections. Get early access.">
   <meta name="twitter:image" content="https://olygo.app/assets/img/og-image.png">
 
   <!-- Icons & manifest -->
@@ -46,52 +46,21 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/coming-soon.js" defer></script>
 
   <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://olygo.app/#org",
-        "name": "Olygo",
-        "url": "https://olygo.app/",
-        "logo": "https://olygo.app/assets/img/icon-512.png",
-        "email": "hello@olygo.app"
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://olygo.app/#website",
-        "url": "https://olygo.app/",
-        "name": "Olygo",
-        "publisher": { "@id": "https://olygo.app/#org" },
-        "inLanguage": "en"
-      },
-      {
-        "@type": "MobileApplication",
-        "name": "Olygo",
-        "operatingSystem": "iOS, Android",
-        "applicationCategory": "SocialNetworkingApplication",
-        "description": "A dating app for genuine, verified connections with mindful daily swipes, preference matching and safe chat.",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
-        "publisher": { "@id": "https://olygo.app/#org" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          { "@type": "Question", "name": "Is Olygo free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Creating a profile, swiping, matching and chatting are free. Optional premium features add extras like read receipts and more photos." } },
-          { "@type": "Question", "name": "How does profile verification work?", "acceptedAnswer": { "@type": "Answer", "text": "You verify your phone or email and can complete a quick photo verification. Verified profiles get a badge so you know who is real." } },
-          { "@type": "Question", "name": "Why is there a daily swipe limit?", "acceptedAnswer": { "@type": "Answer", "text": "Olygo gives you a set number of swipes each day so you slow down, look properly and focus on people who genuinely match what you want." } },
-          { "@type": "Question", "name": "Can I block or report someone?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can block or report any profile or conversation in a couple of taps. Blocked users can no longer see you or message you." } },
-          { "@type": "Question", "name": "Can I take a break without deleting my account?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can deactivate your account temporarily and reactivate it any time by logging back in." } }
-        ]
-      }
+      { "@type": "Organization", "@id": "https://olygo.app/#org", "name": "Olygo", "url": "https://olygo.app/", "logo": "https://olygo.app/assets/img/icon-512.png", "email": "hello@olygo.app" },
+      { "@type": "WebSite", "@id": "https://olygo.app/#website", "url": "https://olygo.app/", "name": "Olygo", "publisher": { "@id": "https://olygo.app/#org" }, "inLanguage": "en" },
+      { "@type": "WebPage", "url": "https://olygo.app/", "name": "Olygo — Launching Soon", "description": "Olygo launches 19 December 2026. A dating app for genuine, verified connections — no endless scrolling, no ghosting. Join the waitlist for early access.", "isPartOf": { "@id": "https://olygo.app/#website" } }
     ]
   }
   </script>
 </head>
-<body>
+<body class="soon">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -100,58 +69,56 @@
         <img class="brand-mark" src="assets/img/logo.svg" alt="" width="36" height="36">
         <span class="brand-word">Olygo</span>
       </a>
-
-      <div class="nav-links" id="nav-links">
-        <a href="#how">How it works</a>
-        <a href="#features">Features</a>
-        <a href="#safety">Safety</a>
-        <a href="#faq">FAQ</a>
-        <a class="btn btn-primary mobile-cta" href="#download">Get the app</a>
-      </div>
-
       <div class="nav-actions">
         <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode">
           <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
           <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
         </button>
-        <a class="btn btn-primary btn-sm" href="#download">Get the app</a>
-        <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
-          <span class="bars" aria-hidden="true"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span>
-        </button>
+        <a class="btn btn-primary btn-sm soon-nav-cta" href="#waitlist">Join waitlist</a>
       </div>
     </nav>
   </header>
 
   <main id="main">
-    <!-- ============ HERO ============ -->
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="hero soon-hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-copy">
           <span class="eyebrow">
-            <span class="dot"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.1C.8 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.1 4.4 2.6.8-1.5 2.3-2.6 4.4-2.6 3.7 0 5.8 3.9 4.2 7.4C19.5 16.4 12 21 12 21z"/></svg></span>
-            Dating, the genuine way
+            <span class="dot live-dot" aria-hidden="true"></span>
+            Launching 19 December 2026
           </span>
-          <h1 id="hero-title">Connect with <span class="grad-text">real people.</span></h1>
-          <p class="lead">No endless scrolling. No ghosting. Just genuine, verified connections — with people who actually match what you’re looking for.</p>
+          <h1 id="hero-title">Something <span class="grad-text">real</span> is coming.</h1>
+          <p class="lead">Olygo is the dating app for genuine, verified connections. No endless scrolling. No ghosting. Be the first to know when we go live.</p>
 
-          <div class="hero-cta store-row">
-            <!-- TODO: replace with your App Store URL -->
-            <a class="store-btn" href="https://apps.apple.com/" target="_blank" rel="noopener noreferrer" aria-label="Download Olygo on the App Store">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
-              <span><small>Download on the</small><strong>App Store</strong></span>
-            </a>
-            <!-- TODO: replace with your Google Play URL -->
-            <a class="store-btn" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" aria-label="Get Olygo on Google Play">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00d7fe" d="M3.6 1.8 13.4 12 3.6 22.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2z"/><path fill="#ffce00" d="m16.8 8.6-3.4 3.4 3.4 3.4 3.9-2.2c1.1-.6 1.1-1.8 0-2.4z"/><path fill="#ff3a44" d="M13.4 12 3.6 22.2c.4.2.9.2 1.4-.1l11.8-6.7z"/><path fill="#00f076" d="M13.4 12 16.8 8.6 5 1.9c-.5-.3-1-.3-1.4-.1z"/></svg>
-              <span><small>Get it on</small><strong>Google Play</strong></span>
-            </a>
+          <div class="countdown" id="countdown" data-launch="2026-12-19T10:00:00+05:30" role="timer" aria-label="Time until launch">
+            <div class="cd-unit"><span class="cd-num" data-unit="days">30</span><span class="cd-label">Days</span></div>
+            <div class="cd-unit"><span class="cd-num" data-unit="hours">00</span><span class="cd-label">Hours</span></div>
+            <div class="cd-unit"><span class="cd-num" data-unit="minutes">00</span><span class="cd-label">Minutes</span></div>
+            <div class="cd-unit"><span class="cd-num" data-unit="seconds">00</span><span class="cd-label">Seconds</span></div>
           </div>
 
-          <ul class="hero-trust" aria-label="Highlights">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Free to join</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Verified profiles</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Sign in with Google or Apple</li>
-          </ul>
+          <!--
+            Waitlist: set data-endpoint to a form service URL that accepts JSON POST
+            (e.g. https://formspree.io/f/XXXX), and add its origin to connect-src in the CSP above.
+            Until then, signing up opens the visitor's email app addressed to data-fallback.
+          -->
+          <form class="waitlist" id="waitlist" data-endpoint="" data-fallback="hello@olygo.app" novalidate>
+            <label class="sr-only" for="wl-email">Email address</label>
+            <div class="wl-field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+              <input id="wl-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" maxlength="254" required>
+              <button class="btn btn-primary" type="submit"><span class="wl-btn-text">Join the waitlist</span></button>
+            </div>
+            <div class="hp" aria-hidden="true"><label for="wl-company">Company</label><input id="wl-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+            <p class="wl-status" role="status" aria-live="polite"></p>
+            <p class="wl-note">Early access invite on launch day. No spam — unsubscribe anytime. See our <a href="privacy.html">privacy policy</a>.</p>
+          </form>
+
+          <div class="soon-stores" aria-label="Coming to iOS and Android">
+            <span class="soon-store"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>App Store</span>
+            <span class="soon-store"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00d7fe" d="M3.6 1.8 13.4 12 3.6 22.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2z"/><path fill="#ffce00" d="m16.8 8.6-3.4 3.4 3.4 3.4 3.9-2.2c1.1-.6 1.1-1.8 0-2.4z"/><path fill="#ff3a44" d="M13.4 12 3.6 22.2c.4.2.9.2 1.4-.1l11.8-6.7z"/><path fill="#00f076" d="M13.4 12 16.8 8.6 5 1.9c-.5-.3-1-.3-1.4-.1z"/></svg>Google Play</span>
+            <span class="soon-tag">Coming soon</span>
+          </div>
         </div>
 
         <div class="hero-visual" aria-hidden="true">
@@ -161,7 +128,7 @@
               <div class="app-top">
                 <div>
                   <span class="brand-word">Olygo</span>
-                  <small>20 swipes left today</small>
+                  <small>Launching soon</small>
                 </div>
                 <svg class="filter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>
               </div>
@@ -237,250 +204,31 @@
       </div>
     </section>
 
-    <!-- ============ HOW IT WORKS ============ -->
-    <section class="section" id="how" aria-labelledby="how-title">
+    <section class="section soon-perks" aria-labelledby="perks-title">
       <div class="container">
         <div class="section-head reveal">
-          <span class="kicker">How it works</span>
-          <h2 id="how-title">From hello to a real date, in four easy steps</h2>
-          <p>Olygo keeps things simple, so you can spend less time in the app and more time getting to know someone.</p>
+          <span class="kicker">Why join early</span>
+          <h2 id="perks-title">Be first in line</h2>
         </div>
-        <ol class="steps">
-          <li class="step reveal">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4.3-7 8-7s7 2.5 8 7"/></svg></span>
-            <h3>Create your profile</h3>
-            <p>Sign up with Google, Apple or email. Add your best photos, a short bio and what you’re looking for.</p>
-          </li>
-          <li class="step reveal">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
-            <h3>Get verified</h3>
-            <p>Confirm your phone or email and take a quick photo check to earn your verified badge.</p>
-          </li>
-          <li class="step reveal">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.1C.8 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.1 4.4 2.6.8-1.5 2.3-2.6 4.4-2.6 3.7 0 5.8 3.9 4.2 7.4C19.5 16.4 12 21 12 21z"/></svg></span>
-            <h3>Swipe &amp; match</h3>
-            <p>Like, pass or super like. When the feeling is mutual — it’s a match.</p>
-          </li>
-          <li class="step reveal">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 1 3.4 6.5L4 20l1.2-3.6A8 8 0 0 1 4 12z"/></svg></span>
-            <h3>Start talking</h3>
-            <p>Chat in real time, share photos and plan your first meet-up — at your own pace.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- ============ FEATURES ============ -->
-    <section class="section section-alt" id="features" aria-labelledby="features-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">Features</span>
-          <h2 id="features-title">Everything you need. <span class="grad-text">Nothing you don’t.</span></h2>
-          <p>Thoughtful tools designed around one idea: helping you find someone worth meeting.</p>
-        </div>
-
-        <div class="bento">
-          <article class="feature feature-hero f-span-4 reveal">
-            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg></span>
-            <h3>Discovery that fits you</h3>
-            <p>Set your distance, age range, who you’re looking for and the things that matter — like lifestyle and habits. Every card shows how many of your preferences that person matches.</p>
-            <div class="chips">
-              <span class="chip">Within 25 km</span>
-              <span class="chip">Age 24–32</span>
-              <span class="chip">Non-smoker</span>
-              <span class="chip">Long-term</span>
-              <span class="chip"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.2 14.2-4-4 1.4-1.4 2.6 2.6 5.4-5.4 1.4 1.4z"/></svg>4 matched</span>
-            </div>
-          </article>
-
-          <article class="feature f-span-2 reveal">
-            <span class="ic ic-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-            <h3>Daily swipes</h3>
-            <p>A fresh set every day. Less noise, better decisions.</p>
-            <div class="meter" aria-hidden="true">
-              <div class="meter-bar"><span></span></div>
-              <div class="meter-label"><span>13 used</span><span>7 left</span></div>
-            </div>
-          </article>
-
-          <article class="feature f-span-3 reveal">
-            <span class="ic ic-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 1 3.4 6.5L4 20l1.2-3.6A8 8 0 0 1 4 12z"/></svg></span>
-            <h3>Real-time chat</h3>
-            <p>Message your matches instantly, share photos and see when they’ve read your note.</p>
-            <div class="chat-preview" aria-hidden="true">
-              <span class="bubble in">Hey! You love trekking too? 🏔️</span>
-              <span class="bubble out">Always! Nandi Hills this weekend?</span>
-              <span class="bubble-meta">Read <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m2 13 4 4 8-9M10 15l2 2 9-10"/></svg></span>
-            </div>
-          </article>
-
-          <article class="feature f-span-3 reveal">
-            <span class="ic ic-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20s-7-4.3-8.8-8.4C1.9 8.4 3.8 5 7.1 5c1.9 0 3.4 1 4.9 2.6C13.5 6 15 5 16.9 5c3.3 0 5.2 3.4 3.9 6.6C19 15.7 12 20 12 20z"/></svg></span>
-            <h3>See who likes you</h3>
-            <p>Your Likes tab shows everyone who’s interested — so you can match back in one tap.</p>
-            <div class="avatars" aria-hidden="true">
-              <span class="av1"></span><span class="av2"></span><span class="av3"></span><span class="av4"></span><span class="more">+9</span>
-            </div>
-          </article>
-
-          <article class="feature f-span-2 reveal">
-            <span class="ic ic-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/></svg></span>
-            <h3>Explore</h3>
-            <p>Browse people nearby by interests, vibes and intentions — beyond the swipe deck.</p>
-          </article>
-
-          <article class="feature f-span-2 reveal">
-            <span class="ic ic-gold"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg></span>
-            <h3>Super likes</h3>
-            <p>Really into someone? Stand out and let them know first.</p>
-          </article>
-
-          <article class="feature f-span-2 reveal">
-            <span class="ic ic-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span>
-            <h3>Light &amp; dark</h3>
-            <p>A clean, comfortable design that looks great day or night.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ SAFETY ============ -->
-    <section class="section" id="safety" aria-labelledby="safety-title">
-      <div class="container">
-        <div class="safety-panel reveal">
-          <div>
-            <div class="shield" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>
-            </div>
-            <span class="kicker">Safety first</span>
-            <h2 id="safety-title">Your safety isn’t a feature. It’s the foundation.</h2>
-            <p class="lead">From verification to one-tap reporting, Olygo is built so you can focus on the connection — and leave the worrying to us.</p>
-            <a class="btn btn-primary" href="safety.html">Read our safety tips</a>
-          </div>
-          <div class="safety-list">
-            <div class="safety-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="14" rx="3"/><circle cx="12" cy="13" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg>
-              <h3>Photo verification</h3>
-              <p>A quick selfie check confirms people are who their photos say they are.</p>
-            </div>
-            <div class="safety-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m5.6 5.6 12.8 12.8"/></svg>
-              <h3>Block &amp; report</h3>
-              <p>Block or report anyone in two taps. Our team reviews every report.</p>
-            </div>
-            <div class="safety-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
-              <h3>Visibility controls</h3>
-              <p>Choose who can discover you and message you, or pause your profile anytime.</p>
-            </div>
-            <div class="safety-item">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
-              <h3>Secure by default</h3>
-              <p>Encrypted connections and careful data handling. We never sell your data.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ FAQ ============ -->
-    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">FAQ</span>
-          <h2 id="faq-title">Questions? We’ve got answers.</h2>
-        </div>
-        <div class="faq reveal">
-          <details open>
-            <summary>Is Olygo free to use?</summary>
-            <p>Yes. Creating a profile, swiping, matching and chatting are free. Optional premium features add extras like read receipts and more photos.</p>
-          </details>
-          <details>
-            <summary>How does profile verification work?</summary>
-            <p>You verify your phone or email and can complete a quick photo verification. Verified profiles get a badge so you know who is real.</p>
-          </details>
-          <details>
-            <summary>Why is there a daily swipe limit?</summary>
-            <p>Olygo gives you a set number of swipes each day so you slow down, look properly and focus on people who genuinely match what you want.</p>
-          </details>
-          <details>
-            <summary>Can I block or report someone?</summary>
-            <p>Yes. You can block or report any profile or conversation in a couple of taps. Blocked users can no longer see you or message you.</p>
-          </details>
-          <details>
-            <summary>Can I take a break without deleting my account?</summary>
-            <p>Yes. You can deactivate your account temporarily and reactivate it any time by logging back in. If you prefer, you can also delete your account permanently from Settings.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ CTA ============ -->
-    <section class="section" id="download" aria-labelledby="download-title">
-      <div class="container">
-        <div class="cta reveal">
-          <h2 id="download-title">Your next great story starts here.</h2>
-          <p>Download Olygo, get verified in minutes and meet people who are here for something real.</p>
-          <div class="store-row">
-            <a class="store-btn" href="https://apps.apple.com/" target="_blank" rel="noopener noreferrer" aria-label="Download Olygo on the App Store">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
-              <span><small>Download on the</small><strong>App Store</strong></span>
-            </a>
-            <a class="store-btn" href="https://play.google.com/store" target="_blank" rel="noopener noreferrer" aria-label="Get Olygo on Google Play">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00d7fe" d="M3.6 1.8 13.4 12 3.6 22.2c-.4-.2-.6-.7-.6-1.2V3c0-.5.2-1 .6-1.2z"/><path fill="#ffce00" d="m16.8 8.6-3.4 3.4 3.4 3.4 3.9-2.2c1.1-.6 1.1-1.8 0-2.4z"/><path fill="#ff3a44" d="M13.4 12 3.6 22.2c.4.2.9.2 1.4-.1l11.8-6.7z"/><path fill="#00f076" d="M13.4 12 16.8 8.6 5 1.9c-.5-.3-1-.3-1.4-.1z"/></svg>
-              <span><small>Get it on</small><strong>Google Play</strong></span>
-            </a>
-          </div>
+        <div class="perks">
+          <div class="perk reveal"><span class="ic ic-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span><h3>Early access</h3><p>Get your invite the moment Olygo goes live in your city.</p></div>
+          <div class="perk reveal"><span class="ic ic-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4.3-7 8-7s7 2.5 8 7"/></svg></span><h3>Claim your profile</h3><p>Set up before the crowd and be seen first by new members.</p></div>
+          <div class="perk reveal"><span class="ic ic-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 1 3.4 6.5L4 20l1.2-3.6A8 8 0 0 1 4 12z"/></svg></span><h3>Shape the app</h3><p>Early members help us decide what we build next.</p></div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-about">
-          <a class="brand" href="./" aria-label="Olygo home">
-            <img class="brand-mark" src="assets/img/logo.svg" alt="" width="36" height="36">
-            <span class="brand-word">Olygo</span>
-          </a>
-          <p>The dating app for genuine, verified connections. No endless scrolling. No ghosting.</p>
-          <div class="socials">
+  <footer class="site-footer soon-footer">
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Olygo. All rights reserved.</span>
+      <div class="socials">
             <!-- TODO: replace with your social profile URLs -->
             <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Olygo on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
             <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Olygo on X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.3L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a>
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Olygo on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg></a>
           </div>
-        </div>
-        <div class="footer-col">
-          <h3>Product</h3>
-          <ul>
-            <li><a href="#how">How it works</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#download">Download</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3>Support</h3>
-          <ul>
-            <li><a href="safety.html">Safety tips</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="mailto:hello@olygo.app">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h3>Legal</h3>
-          <ul>
-            <li><a href="privacy.html">Privacy policy</a></li>
-            <li><a href="terms.html">Terms of service</a></li>
-            <li><a href="privacy.html#delete">Delete account</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span id="year">2026</span> Olygo. All rights reserved.</span>
-        <span class="made">Made with <svg viewBox="0 0 24 24" fill="currentColor" aria-label="love"><path d="M12 21s-7.5-4.6-9.6-9.1C.8 8.4 2.9 4.5 6.6 4.5c2.1 0 3.6 1.1 4.4 2.6.8-1.5 2.3-2.6 4.4-2.6 3.7 0 5.8 3.9 4.2 7.4C19.5 16.4 12 21 12 21z"/></svg> in India</span>
-      </div>
+      <span class="soon-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="safety.html">Safety</a><a href="mailto:hello@olygo.app">Contact</a></span>
     </div>
   </footer>
 </body>

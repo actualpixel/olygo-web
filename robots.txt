@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://olygo.app/sitemap.xml
+Sitemap: https://olygo.in/sitemap.xml
